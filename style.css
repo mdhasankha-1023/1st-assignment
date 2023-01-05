@@ -7,7 +7,7 @@
 
 }
 
-/* header styles */
+/* header section styles */
 
 .banner {
     height: 100vh;
@@ -55,7 +55,7 @@
 
 }
 
-/* pre-year styles */
+/* pre-year section styles */
 
 .pre-year {
     display: flex;
@@ -63,7 +63,8 @@
     gap: 87px;
     margin-top: 50px;
 }
-.pre-year-text{
+
+.pre-year-text {
     margin-right: 50px;
 
 }
@@ -81,12 +82,41 @@
     color: #444343;
     margin-bottom: 16px;
 }
-main ul li{
+
+main ul li {
     list-style: none;
     margin-top: 8px;
     color: #444343;
 
 }
-i{
+
+i {
     color: green;
+}
+
+/* my-plans section styles */
+
+.my-plans{
+    margin-top: 130px;
+}
+.my-plans-title {
+    font-weight: 800;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+}
+
+.my-plans-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    margin-top: 50px;
+}
+.item-title{
+    margin-top: 20px;
+    text-align: center;
+}
+.item-description{
+    margin-top: 10px;
+    text-align: center;
 }
