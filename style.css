@@ -7,15 +7,29 @@
 
 }
 
+/* universel button styles */
+
+.universel-btn {
+    margin-top: 32px;
+    padding: 16px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFF;
+    border-radius: 5px;
+    border: none;
+    color: #005FAC;
+}
+
+
 /* header section styles */
 
 .banner {
     height: 100vh;
     width: 100vw;
-    background-image: url(./images/banner/banner1.png);
+    background-image: url(./images/banner/banner3.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .banner-text {
@@ -26,30 +40,15 @@
 .text-title {
     font-weight: 800;
     font-size: 55px;
-    color: #151414;
+    color: #fff;
     margin-bottom: 24px;
 }
 
 .text-description {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
-    color: #444343;
-
-
-
-}
-
-.banner-btn {
-    margin-top: 32px;
-    /* height: 40px; */
-    padding: 16px 25px;
-    font-weight: 600;
-    font-size: 20px;
-    background: #F15B22;
-    border-radius: 5px;
-    border: none;
-    color: #fff;
+    color: #FFF;
 
 
 
@@ -96,9 +95,10 @@ i {
 
 /* my-plans section styles */
 
-.my-plans{
+.my-plans {
     margin-top: 130px;
 }
+
 .my-plans-title {
     font-weight: 800;
     font-size: 30px;
@@ -112,11 +112,42 @@ i {
     padding: 0 150px;
     margin-top: 50px;
 }
-.item-title{
+
+.item-title {
     margin-top: 20px;
     text-align: center;
 }
-.item-description{
+
+.item-description {
     margin-top: 10px;
     text-align: center;
+}
+
+.dev-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* picture gradient section styles */
+
+.gradient {
+    margin: 100px 150px;
+    background: grey;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gra-text {
+    padding: 25px 300px 25px 40px;
+}
+
+.gra-text-title {
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFF;
 }
