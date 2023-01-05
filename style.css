@@ -20,6 +20,20 @@
     color: #005FAC;
 }
 
+/* footer button styles */
+.future input[type="submit"] {
+    margin-top: 32px;
+    padding: 14px 18px;
+    font-weight: 600;
+    font-size: 14px;
+    background: #005FAC;
+    border-radius: 5px;
+    border: none;
+    color: #fff ;
+    
+    
+}
+
 
 /* header section styles */
 
@@ -150,4 +164,54 @@ i {
     font-weight: 600;
     font-size: 28px;
     color: #FFF;
+}
+
+/* footer section styles */
+
+footer {
+    background: #151414;
+}
+
+.future {
+    display: flex;
+    gap: 250px;
+    justify-content: space-between;
+
+}
+
+.future-text {
+    margin: 130px 13px 70px 138px;
+}
+
+.future-text-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.future-text-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.726);
+    margin-bottom: 16px;
+}
+
+.subscrib {
+    margin: 130px 230px 70px 13px;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.subscrib input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 30px;
+    background: #151414;
+    border: #444343;
+    color: #fff;
 }
