@@ -1,0 +1,89 @@
+/* universel styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* header styles */
+
+.banner {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.banner-text {
+    text-align: right;
+    padding: 150px 100px 160px 520px;
+}
+
+.text-title {
+    font-weight: 800;
+    font-size: 55px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.text-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
+
+
+}
+
+.banner-btn {
+    margin-top: 32px;
+    /* height: 40px; */
+    padding: 16px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+
+
+
+}
+
+/* pre-year styles */
+
+.pre-year {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    margin-top: 50px;
+}
+.pre-year-text{
+    margin-right: 50px;
+
+}
+
+.pre-year-text-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.pre-year-text-descriptio {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+main ul li{
+    list-style: none;
+    margin-top: 8px;
+    color: #444343;
+
+}
